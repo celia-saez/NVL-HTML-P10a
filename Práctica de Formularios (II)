@@ -5,7 +5,7 @@
      </div>
       <div>
        <label for=”Sadisfacción”>Número de Sadisfacción:</label>       
-       <select id=”hermanos”>
+       <select id=”Sadisfacción”>
          <option value=”1”>1</option>
          <option value=”2”>2</option>
          <option value=”3”>3</option>
