@@ -1,0 +1,44 @@
+<form method="encuesta sadisfacción" action="miservidor.php">
+     <div>
+       <label for=”Codigo postal”>Codigo postal:</label>
+       <input id=”Codigo postal” type=”number”>
+     </div>
+      <div>
+       <label for=”Sadisfacción”>Número de Sadisfacción:</label>       
+       <select id=”hermanos”>
+         <option value=”1”>1</option>
+         <option value=”2”>2</option>
+         <option value=”3”>3</option>
+         <option value=”4”>4</option>
+         <option value=”5”>5</option>
+       </select>
+   </div>
+     <div>
+       <label for=””>Email usuario:</label>
+       <input id=”Email usuario” type=”text”>
+    </div>
+    <div>
+     <label for=”Puntos positivo producto”>Puntos positivo producto:</label>
+     <textarea id=”Puntos positivo producto”></textarea>
+   </div>
+   <div>
+     <label for=”Puntos negativos producto”>Puntos negativos producto:</label>
+     <textarea id=”Puntos negativos producto”></textarea>
+   </div>
+    <div>
+       <label for=”envio”>envio:</label>
+       <select id=”envio”>
+         <option value=”Excelente”>Excelente</option>
+         <option value=”Bueno”>Bueno</option>
+         <option value=”Regular”>Regular</option>
+         <option value=”Pésimo”>Pésimo</option>
+       </select>
+   </div>
+   <div>
+       <label for=”envio”>envio:</label>
+       <input name=”envio” type=”radio” value=”Excelente”>Excelente       
+       <input name=”envio” type=”radio” value=”Bueno”>Bueno
+       <input name=”envio” type=”radio” value=”Pesimo”>Pesimo
+   </div>
+   <input type=”submit” value=”Enviar”>
+</form>
